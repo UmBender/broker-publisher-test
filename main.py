@@ -8,7 +8,7 @@ for i in range(4):
     if connection != 0:
         print("Cannot connect")
 
-    f = open("info.txt", "r")
+    f = open("info1.txt", "r")
     f = f.read()
     f = f.split("\n")
     for i in f:
